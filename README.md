@@ -1,2 +1,2 @@
 # RalseiBot.github.io
-Official RalseiBot Website
+Official RalseiBot Website and Github
