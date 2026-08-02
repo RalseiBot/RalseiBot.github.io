@@ -1,0 +1,350 @@
+/* ===============================
+   Nova Bot 官网样式文件
+   =============================== */
+
+
+/* 全局页面设置 */
+
+body {
+
+    /* 默认字体 */
+
+    font-family:
+    "Microsoft YaHei",
+    Arial,
+    sans-serif;
+
+
+    /* 页面背景 */
+
+    background:
+    linear-gradient(
+        135deg,
+        #e8f0ff,
+        #ffffff
+    );
+
+
+    /* 去除默认边距 */
+
+    margin:0;
+
+
+    /* 默认文字颜色 */
+
+    color:#333;
+
+}
+
+
+
+/* ===============================
+   标题区域
+   =============================== */
+
+
+h1 {
+
+
+    color:#2563eb;
+
+
+    font-size:42px;
+
+
+    margin-top:40px;
+
+
+}
+
+
+
+h2 {
+
+
+    color:#1e40af;
+
+
+}
+
+
+
+h3 {
+
+
+    color:#555;
+
+
+}
+
+
+
+
+/* ===============================
+   分割线
+   =============================== */
+
+
+hr {
+
+
+    width:80%;
+
+
+    border:none;
+
+
+    height:2px;
+
+
+    background:#2563eb;
+
+
+}
+
+
+
+
+/* ===============================
+   内容卡片
+   =============================== */
+
+
+table {
+
+
+    border-collapse:collapse;
+
+
+}
+
+
+
+table[bgcolor="white"] {
+
+
+    background:white;
+
+
+    border-radius:20px;
+
+
+    overflow:hidden;
+
+
+    box-shadow:
+
+    0 10px 30px
+
+    rgba(
+    0,
+    0,
+    0,
+    0.15
+    );
+
+
+}
+
+
+
+/* 单元格 */
+
+td {
+
+
+    padding:25px;
+
+
+}
+
+
+
+/* ===============================
+   图片
+   =============================== */
+
+
+img {
+
+
+    border-radius:50%;
+
+
+    box-shadow:
+
+    0 5px 20px
+
+    rgba(
+    0,
+    0,
+    0,
+    0.2
+    );
+
+
+}
+
+
+
+
+
+/* ===============================
+   导航栏
+   =============================== */
+
+
+a {
+
+
+    display:inline-block;
+
+
+    text-decoration:none;
+
+
+    color:white;
+
+
+    background:#2563eb;
+
+
+    padding:
+
+    12px 25px;
+
+
+    margin:5px;
+
+
+    border-radius:30px;
+
+
+    transition:0.3s;
+
+
+}
+
+
+
+
+/* 鼠标悬停 */
+
+a:hover {
+
+
+    background:#1d4ed8;
+
+
+    transform:
+
+    translateY(-3px);
+
+
+}
+
+
+
+
+/* ===============================
+   表格
+   =============================== */
+
+
+table[border="1"] {
+
+
+    border:none;
+
+
+}
+
+
+
+table[border="1"] td,
+table[border="1"] th {
+
+
+    border:
+
+    1px solid #ddd;
+
+
+    padding:
+
+    15px;
+
+
+}
+
+
+
+th {
+
+
+    background:#2563eb;
+
+
+    color:white;
+
+
+}
+
+
+
+
+/* ===============================
+   列表
+   =============================== */
+
+
+li {
+
+
+    margin:10px;
+
+
+}
+
+
+
+
+/* ===============================
+   手机适配
+   =============================== */
+
+
+@media(max-width:700px){
+
+
+table {
+
+
+    width:95%!important;
+
+
+}
+
+
+
+h1 {
+
+
+    font-size:32px;
+
+
+}
+
+
+
+a {
+
+
+    display:block;
+
+
+}
+
+
+
+}
